@@ -8,7 +8,6 @@ import tad_lista_de_nodos.PositionList;
 // usa teste linear para lidar com colisões. A função hash usa o método hashCode integrado e o método 
 // multiply-add-and-divide. O fator de carga é sempre mantido menor ou igual a 0,5. Quando o fator de 
 // carga atinge 0,5, as entradas são refeitas em uma nova matriz de buckets com o dobro da capacidade.
-// Exercício 22: Implemente e teste o HashTableMap considerando os slides de 66 a 72.
 public class HashTableMap<K, V> implements Map<K, V> {
 	// Classe aninhada para uma entrada na table hash
 	public static class HashEntry<K, V> implements Entry<K, V> {
